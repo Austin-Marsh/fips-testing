@@ -229,19 +229,8 @@ else
     exit 1
 fi
 
-echo "sleeping for 60 seconds"
-sleep 60
-
-
-
-
-
-
-
-
-
-
-
+echo "sleeping for 10 minutes / 600 seconds"
+sleep 600
 
 docker stop kickstart-host
 sleep 2
